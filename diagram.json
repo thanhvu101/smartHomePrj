@@ -1,0 +1,240 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -43.3, "left": 4.6, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -566.1,
+      "left": -197.4,
+      "attrs": { "temperature": "-0.3", "humidity": "32.5" }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": -499.5,
+      "left": 1021.7,
+      "rotate": 90,
+      "attrs": {}
+    },
+    { "type": "wokwi-vcc", "id": "vcc1", "top": -344.84, "left": 1286.4, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd1", "top": -249.6, "left": 1218.6, "attrs": {} },
+    {
+      "type": "wokwi-pir-motion-sensor",
+      "id": "pir1",
+      "top": 215.2,
+      "left": -324.18,
+      "attrs": {}
+    },
+    { "type": "wokwi-vcc", "id": "vcc2", "top": 375.16, "left": -384, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd2", "top": 393.6, "left": -240.6, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": 198, "left": -159.4, "attrs": { "color": "red" } },
+    { "type": "wokwi-gnd", "id": "gnd4", "top": 297.6, "left": -202.2, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 291.4,
+      "left": -144.85,
+      "rotate": 270,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": -502.8,
+      "left": -668.2,
+      "attrs": { "color": "yellow" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": -380.6,
+      "left": -653.65,
+      "rotate": 270,
+      "attrs": { "value": "1000" }
+    },
+    { "type": "wokwi-gnd", "id": "gnd5", "top": -345.6, "left": -711, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd6", "top": -384, "left": -461.4, "attrs": {} },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz2",
+      "top": -621.6,
+      "left": -363,
+      "attrs": { "volume": "0.1" }
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo1",
+      "top": -557.8,
+      "left": 904.2,
+      "rotate": 270,
+      "attrs": {}
+    },
+    { "type": "wokwi-vcc", "id": "vcc4", "top": -344.84, "left": 950.4, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd7", "top": -336, "left": 911.4, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo2", "top": 286, "left": 748.8, "attrs": {} },
+    { "type": "wokwi-vcc", "id": "vcc5", "top": 298.36, "left": 624, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd8", "top": 259.2, "left": 690.6, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": -502.8,
+      "left": -553,
+      "attrs": { "color": "cyan" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r3",
+      "top": -379.2,
+      "left": -538.15,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    },
+    { "type": "wokwi-gnd", "id": "gnd9", "top": -355.2, "left": -576.6, "attrs": {} },
+    {
+      "type": "wokwi-servo",
+      "id": "servo3",
+      "top": -519.4,
+      "left": 568.2,
+      "rotate": 270,
+      "attrs": {}
+    },
+    { "type": "wokwi-gnd", "id": "gnd10", "top": -355.2, "left": 527.4, "attrs": {} },
+    { "type": "wokwi-vcc", "id": "vcc6", "top": -344.84, "left": 556.8, "attrs": {} },
+    {
+      "type": "wokwi-servo",
+      "id": "servo4",
+      "top": -663.4,
+      "left": -871.8,
+      "rotate": 270,
+      "attrs": {}
+    },
+    { "type": "wokwi-gnd", "id": "gnd11", "top": -278.4, "left": -883.8, "attrs": {} },
+    { "type": "wokwi-vcc", "id": "vcc7", "top": -239.24, "left": -883.2, "attrs": {} },
+    {
+      "type": "wokwi-servo",
+      "id": "servo5",
+      "top": 370.6,
+      "left": -651.8,
+      "rotate": 90,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led4",
+      "top": -531.6,
+      "left": 771.8,
+      "attrs": { "color": "yellow" }
+    },
+    { "type": "wokwi-vcc", "id": "vcc3", "top": -354.44, "left": -268.8, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd3", "top": -393.6, "left": -269.4, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd12", "top": -422.4, "left": 738.6, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r4",
+      "top": -428.6,
+      "left": 786.35,
+      "rotate": 270,
+      "attrs": { "value": "1000" }
+    },
+    { "type": "wokwi-gnd", "id": "gnd13", "top": 326.4, "left": -509.4, "attrs": {} },
+    { "type": "wokwi-vcc", "id": "vcc8", "top": 279.16, "left": -566.4, "attrs": {} },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": 499.7,
+      "left": -857.1,
+      "rotate": 180,
+      "attrs": { "distance": "400" }
+    },
+    { "type": "wokwi-vcc", "id": "vcc9", "top": 365.56, "left": -710.4, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd14", "top": 422.4, "left": -835.8, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd15", "top": 163.2, "left": 633, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton-6mm",
+      "id": "btn2",
+      "top": 209,
+      "left": 681.6,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text1",
+      "top": -585.6,
+      "left": -1113.6,
+      "attrs": { "text": "Phòng khách" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text2",
+      "top": -595.2,
+      "left": 470.4,
+      "attrs": { "text": "Phòng ngủ" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text3",
+      "top": 201.6,
+      "left": -1017.6,
+      "attrs": { "text": "Nhà tắm" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text4",
+      "top": 412.8,
+      "left": 777.6,
+      "attrs": { "text": "Cửa" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "dht1:SDA", "esp:D15", "gold", [ "v345.6", "h316.9", "v201.8" ] ],
+    [ "ldr1:VCC", "vcc1:VCC", "red", [ "v67.2", "h57.6" ] ],
+    [ "ldr1:GND", "gnd1:GND", "black", [ "h0.4", "v115.2" ] ],
+    [ "pir1:VCC", "vcc2:VCC", "red", [ "v15.93", "h67.2", "v-83.13" ] ],
+    [ "pir1:GND", "gnd2:GND", "black", [ "v11.61", "h-0.26", "v122.79" ] ],
+    [ "r1:1", "esp:D18", "green", [ "h249.6", "v-288" ] ],
+    [ "led1:A", "r1:2", "green", [ "v124.8", "h9.6", "v-86.4", "h9.6" ] ],
+    [ "led1:C", "gnd4:GND", "black", [ "v0" ] ],
+    [ "led2:A", "r2:2", "blue", [ "v374.4", "h873.6", "v115.2" ] ],
+    [ "r2:1", "esp:D19", "blue", [ "v259.2", "h748.8", "v115.3" ] ],
+    [ "bz2:1", "gnd6:GND", "black", [ "v23.94", "h-83.3" ] ],
+    [ "bz2:2", "esp:D22", "gray", [ "v441.6", "h460.4", "v86.7" ] ],
+    [ "servo1:V+", "vcc4:VCC", "red", [ "h0.1", "v115.2", "h-28.8" ] ],
+    [ "servo1:GND", "gnd7:GND", "black", [ "v38.4", "h-57.6" ] ],
+    [ "servo2:V+", "vcc5:VCC", "red", [ "h-91.78", "v0.1", "h-100.22" ] ],
+    [ "servo2:GND", "gnd8:GND", "black", [ "h-96", "v-76.8" ] ],
+    [ "servo1:PWM", "esp:D33", "cyan", [ "h0.2", "v134.4", "h-1008", "v316.8" ] ],
+    [ "servo2:PWM", "esp:D32", "white", [ "h-288", "v-115", "h-460.8", "v-211.1" ] ],
+    [ "led3:A", "r3:1", "white", [ "v57.6", "h19.2" ] ],
+    [ "r3:2", "esp:D23", "white", [ "v267.6", "h624", "v57.5" ] ],
+    [ "led3:C", "gnd9:GND", "black", [ "v6.87", "h-42.8" ] ],
+    [ "servo3:GND", "gnd10:GND", "black", [ "h-105.6", "v19.2" ] ],
+    [ "servo3:V+", "vcc6:VCC", "red", [ "h0.1", "v105.6", "h-86.4" ] ],
+    [ "servo3:PWM", "esp:D21", "magenta", [ "h0.2", "v528.4" ] ],
+    [ "servo4:GND", "gnd11:GND", "black", [ "v76.8", "h-192" ] ],
+    [ "servo4:V+", "vcc7:VCC", "red", [ "h0.1", "v72.79" ] ],
+    [ "servo4:PWM", "esp:D12", "cyan", [ "h0.2", "v604.8", "h787.2" ] ],
+    [ "led2:C", "gnd5:GND", "black", [ "v0" ] ],
+    [ "dht1:VCC", "vcc3:VCC", "red", [ "v0" ] ],
+    [ "gnd3:GND", "dht1:GND", "black", [ "v0" ] ],
+    [ "gnd12:GND", "led4:C", "black", [ "v-28.8", "h28.4" ] ],
+    [ "r4:2", "led4:A", "#8f4814", [ "h-9.6", "v-66" ] ],
+    [ "gnd13:GND", "servo5:GND", "black", [ "h-38.4", "v86.4" ] ],
+    [ "vcc8:VCC", "servo5:V+", "red", [ "v19.2", "h38.5" ] ],
+    [ "esp:D13", "servo5:PWM", "blue", [ "h-28.8", "v-0.2", "h-556.6" ] ],
+    [ "ultrasonic1:GND", "gnd14:GND", "black", [ "v0" ] ],
+    [ "ultrasonic1:VCC", "vcc9:VCC", "red", [ "v0" ] ],
+    [ "ultrasonic1:TRIG", "esp:D27", "limegreen", [ "v-432", "h749.2", "v0.3" ] ],
+    [ "ultrasonic1:ECHO", "esp:D26", "purple", [ "v-441.6", "h788" ] ],
+    [ "r4:1", "esp:D5", "#8f4814", [ "v86.4", "h-566.4", "v355.2" ] ],
+    [ "ldr1:DO", "esp:D2", "yellow", [ "h0.6", "v451.9" ] ],
+    [ "esp:D25", "btn2:2.l", "green", [ "h-19.2", "v182.4", "h508.8" ] ],
+    [ "btn2:1.r", "gnd15:GND", "black", [ "v0" ] ],
+    [ "pir1:OUT", "esp:D4", "blue", [ "v48", "h403.06", "v-278.4", "h-18.9" ] ]
+  ],
+  "dependencies": {}
+}
