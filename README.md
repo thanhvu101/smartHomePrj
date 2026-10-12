@@ -1,8 +1,8 @@
 # Smart Home ESP32
 
-Dự án mô phỏng nhà thông minh bằng ESP32 trên Wokwi, điều khiển qua MQTT và
-openHAB. Thiết bị gồm đèn, cửa, rèm, điều hòa, quạt, máy bơm, cảm biến DHT22,
-PIR, LDR và khoảng cách.
+Dự án mô phỏng nhà thông minh bằng ESP32 trên Wokwi với FreeRTOS, điều khiển qua MQTT và
+openHAB, điều khiển giọng nói qua Google Assistant. Thiết bị gồm đèn, cửa, rèm, điều hòa, quạt, máy bơm, cảm biến DHT22,
+PIR, LDR.
 
 ## 1. Cài đặt Wokwi
 
