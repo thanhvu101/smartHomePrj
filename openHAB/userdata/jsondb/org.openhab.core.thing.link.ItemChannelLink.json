@@ -1,0 +1,403 @@
+{
+  "Door -\u003e mqtt:topic:507525048d:living-light:Door": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "living-light",
+          "Door"
+        ],
+        "uid": "mqtt:topic:507525048d:living-light:Door"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Door"
+    }
+  },
+  "Lightdoor -\u003e mqtt:topic:507525048d:living-light:lightdoor": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "living-light",
+          "lightdoor"
+        ],
+        "uid": "mqtt:topic:507525048d:living-light:lightdoor"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Lightdoor"
+    }
+  },
+  "TV -\u003e mqtt:topic:507525048d:living-light:smarthome": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "living-light",
+          "smarthome"
+        ],
+        "uid": "mqtt:topic:507525048d:living-light:smarthome"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "TV"
+    }
+  },
+  "Temparator_Sensor -\u003e mqtt:topic:507525048d:sensor:temp-sensor": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "sensor",
+          "temp-sensor"
+        ],
+        "uid": "mqtt:topic:507525048d:sensor:temp-sensor"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Temparator_Sensor"
+    }
+  },
+  "bathroom_light -\u003e mqtt:topic:507525048d:living-light:bathroom-light": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "living-light",
+          "bathroom-light"
+        ],
+        "uid": "mqtt:topic:507525048d:living-light:bathroom-light"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "bathroom_light"
+    }
+  },
+  "door -\u003e mqtt:topic:507525048d:equipment:front-door": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "equipment",
+          "front-door"
+        ],
+        "uid": "mqtt:topic:507525048d:equipment:front-door"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "door"
+    }
+  },
+  "fan -\u003e mqtt:topic:507525048d:equipment:ceiling-fan": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "equipment",
+          "ceiling-fan"
+        ],
+        "uid": "mqtt:topic:507525048d:equipment:ceiling-fan"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "fan"
+    }
+  },
+  "hum -\u003e mqtt:topic:507525048d:living-light:hum": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "living-light",
+          "hum"
+        ],
+        "uid": "mqtt:topic:507525048d:living-light:hum"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "hum"
+    }
+  },
+  "light -\u003e mqtt:topic:507525048d:living-light:light": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "living-light",
+          "light"
+        ],
+        "uid": "mqtt:topic:507525048d:living-light:light"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "light"
+    }
+  },
+  "light2 -\u003e mqtt:topic:507525048d:living-light:light2": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "living-light",
+          "light2"
+        ],
+        "uid": "mqtt:topic:507525048d:living-light:light2"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "light2"
+    }
+  },
+  "light_bulb -\u003e mqtt:topic:507525048d:living-light:living-light": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "living-light",
+          "living-light"
+        ],
+        "uid": "mqtt:topic:507525048d:living-light:living-light"
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "light_bulb"
+    }
+  },
+  "maylanh -\u003e mqtt:topic:507525048d:living-light:maylanh": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "living-light",
+          "maylanh"
+        ],
+        "uid": "mqtt:topic:507525048d:living-light:maylanh"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "maylanh"
+    }
+  },
+  "motion_sensor -\u003e mqtt:topic:507525048d:sensor:motion-sensor": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "sensor",
+          "motion-sensor"
+        ],
+        "uid": "mqtt:topic:507525048d:sensor:motion-sensor"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "motion_sensor"
+    }
+  },
+  "pump -\u003e mqtt:topic:507525048d:equipment:pump": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "equipment",
+          "pump"
+        ],
+        "uid": "mqtt:topic:507525048d:equipment:pump"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "pump"
+    }
+  },
+  "pump -\u003e mqtt:topic:507525048d:living-light:pump": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "living-light",
+          "pump"
+        ],
+        "uid": "mqtt:topic:507525048d:living-light:pump"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "pump"
+    }
+  },
+  "rem -\u003e mqtt:topic:507525048d:living-light:blinds": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "living-light",
+          "blinds"
+        ],
+        "uid": "mqtt:topic:507525048d:living-light:blinds"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "rem"
+    }
+  },
+  "switch_fan -\u003e mqtt:topic:507525048d:equipment:ceiling-fan": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "equipment",
+          "ceiling-fan"
+        ],
+        "uid": "mqtt:topic:507525048d:equipment:ceiling-fan"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "switch_fan"
+    }
+  },
+  "table_lamp -\u003e mqtt:topic:507525048d:living-light:bedroom-light": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "living-light",
+          "bedroom-light"
+        ],
+        "uid": "mqtt:topic:507525048d:living-light:bedroom-light"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "table_lamp"
+    }
+  },
+  "temp -\u003e mqtt:topic:507525048d:living-light:temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "living-light",
+          "temperature"
+        ],
+        "uid": "mqtt:topic:507525048d:living-light:temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "temp"
+    }
+  },
+  "temp_sensor -\u003e mqtt:topic:507525048d:sensor:temp-sensor": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "sensor",
+          "temp-sensor"
+        ],
+        "uid": "mqtt:topic:507525048d:sensor:temp-sensor"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "temp_sensor"
+    }
+  },
+  "temperater -\u003e mqtt:topic:507525048d:living-light:temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "mqtt",
+          "topic",
+          "507525048d",
+          "living-light",
+          "temperature"
+        ],
+        "uid": "mqtt:topic:507525048d:living-light:temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "temperater"
+    }
+  }
+}

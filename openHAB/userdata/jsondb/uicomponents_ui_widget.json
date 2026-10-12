@@ -1,0 +1,120 @@
+{
+  "TemperatureHumidity": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "TemperatureHumidity",
+      "tags": [
+        "humidity",
+        "marketplace:143601",
+        "standalone",
+        "temperature"
+      ],
+      "props": {
+        "parameters": [
+          {
+            "description": "Title of the cell.",
+            "label": "Title",
+            "name": "title",
+            "required": true,
+            "type": "TEXT",
+            "groupName": "title"
+          },
+          {
+            "context": "item",
+            "description": "The state of this item will be displayed as temperature.",
+            "label": "Temperature item",
+            "name": "tmp_item",
+            "required": true,
+            "type": "TEXT",
+            "groupName": "items"
+          },
+          {
+            "context": "item",
+            "description": "The state of this item will be displayed as humidity.",
+            "label": "Humidity item",
+            "name": "hum_item",
+            "required": true,
+            "type": "TEXT",
+            "groupName": "items"
+          },
+          {
+            "context": "item",
+            "description": "The display state of this item will be displayed as last update timestamp. Use an item with the timestamp as state and set the pattern of the \"State Description\" metadata to format the timestamp.",
+            "label": "Last update item",
+            "name": "update_item",
+            "required": false,
+            "type": "TEXT",
+            "groupName": "items"
+          },
+          {
+            "description": "Label to be displayed in front of the temperature.",
+            "label": "Temperature Label",
+            "name": "tmp_label",
+            "required": false,
+            "type": "TEXT",
+            "groupName": "labels"
+          },
+          {
+            "description": "Suffix to be displayed after the temperature.",
+            "label": "Temperature Suffix",
+            "name": "tmp_suffix",
+            "required": false,
+            "type": "TEXT",
+            "groupName": "labels"
+          },
+          {
+            "description": "Label to be displayed in front of the humidity.",
+            "label": "Humidity Label",
+            "name": "hum_label",
+            "required": false,
+            "type": "TEXT",
+            "groupName": "labels"
+          },
+          {
+            "description": "Suffix to be displayed after the humidity.",
+            "label": "Humidity Suffix",
+            "name": "hum_suffix",
+            "required": false,
+            "type": "TEXT",
+            "groupName": "labels"
+          },
+          {
+            "description": "Label to be displayed in front of the last update timestamp.",
+            "label": "Last Update Label",
+            "name": "update_label",
+            "required": false,
+            "type": "TEXT",
+            "groupName": "labels"
+          }
+        ],
+        "parameterGroups": [
+          {
+            "name": "title",
+            "label": "Title"
+          },
+          {
+            "name": "items",
+            "label": "Items"
+          },
+          {
+            "name": "labels",
+            "label": "Labels"
+          }
+        ]
+      },
+      "timestamp": "Jan 21, 2023, 5:07:58 AM",
+      "component": "oh-label-cell",
+      "config": {
+        "action": "analyzer",
+        "actionAnalyzerItems": "\u003d[props.hum_item, props.tmp_item]",
+        "expandable": false,
+        "footer": "\u003d (props.update_item ? (props.update_label ? props.update_label : \"\")  + \" \" + items[props.update_item].displayState : \"\")",
+        "header": "\u003d props.title",
+        "icon": "oh:temperature",
+        "label": "\u003d (props.tmp_label ? props.tmp_label + \" \" : \"\") + items[props.tmp_item].state + (props.tmp_suffix ? \" \" + props.tmp_suffix : \"\")",
+        "subtitle": "\u003d (props.hum_label ? props.hum_label + \" \" : \"\") + items[props.hum_item].state + (props.hum_suffix ? \" \" + props.hum_suffix : \"\")",
+        "trendItem": "\u003d props.tmp_item"
+      }
+    }
+  }
+}

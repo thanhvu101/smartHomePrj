@@ -1,0 +1,176 @@
+{
+  "Door": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "outside"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Door"
+      ],
+      "label": "Door",
+      "category": "door"
+    }
+  },
+  "TV": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "smarthome"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Television"
+      ],
+      "label": "TV",
+      "category": "light"
+    }
+  },
+  "bathroom": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "tags": [
+        "Bathroom"
+      ],
+      "label": "Bath Room",
+      "category": "group"
+    }
+  },
+  "bedroom": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "tags": [
+        "Bedroom"
+      ],
+      "label": "Bed Room",
+      "category": "group"
+    }
+  },
+  "hum": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "smarthome"
+      ],
+      "itemType": "Number:Volume",
+      "tags": [
+        "Sensor"
+      ],
+      "label": "Hum",
+      "category": "humidity"
+    }
+  },
+  "light": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "smarthome"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Lightbulb"
+      ],
+      "label": "Đèn trần",
+      "category": "light"
+    }
+  },
+  "light2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "bedroom"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Lightbulb"
+      ],
+      "label": "Đèn ngủ",
+      "category": "light"
+    }
+  },
+  "maylanh": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "bedroom"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "HVAC"
+      ],
+      "label": "Maylanh",
+      "category": "batterylevel"
+    }
+  },
+  "outside": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "tags": [
+        "Outdoor"
+      ],
+      "label": "Out Side",
+      "category": "group"
+    }
+  },
+  "pump": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "bathroom"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Pump"
+      ],
+      "label": "Pump",
+      "category": "pump"
+    }
+  },
+  "rem": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "bedroom"
+      ],
+      "itemType": "Contact",
+      "tags": [
+        "Blinds"
+      ],
+      "label": "Rem",
+      "category": "blinds"
+    }
+  },
+  "smarthome": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "tags": [
+        "House"
+      ],
+      "label": "Living Room",
+      "category": "group"
+    }
+  },
+  "temp": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "smarthome"
+      ],
+      "itemType": "Number:Temperature",
+      "tags": [
+        "Sensor"
+      ],
+      "label": "Temp",
+      "category": "temperature"
+    }
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "mqtt:broker:507525048d": {
+    "class": "org.openhab.core.thing.internal.ThingStorageEntity",
+    "value": {
+      "isBridge": true,
+      "channels": [],
+      "label": "MQTT Broker",
+      "configuration": {
+        "birthMessage": "connected",
+        "birthRetain": true,
+        "birthTopic": "home",
+        "certificatepin": true,
+        "clientid": "0974aa4e-406a-417c-81c0-fdb2cbc4484c",
+        "enableDiscovery": true,
+        "host": "127.0.0.1",
+        "hostnameValidated": true,
+        "keepAlive": 60,
+        "lwtMessage": "1",
+        "lwtQos": 0,
+        "lwtRetain": true,
+        "lwtTopic": "home",
+        "mqttVersion": "V3",
+        "port": 1883,
+        "protocol": "TCP",
+        "publickeypin": true,
+        "qos": 0,
+        "reconnectTime": 60000,
+        "secure": false,
+        "shutdownRetain": true
+      },
+      "properties": {},
+      "UID": "mqtt:broker:507525048d",
+      "thingTypeUID": "mqtt:broker"
+    }
+  },
+  "mqtt:broker:f3724ef9bf": {
+    "class": "org.openhab.core.thing.internal.ThingStorageEntity",
+    "value": {
+      "isBridge": true,
+      "channels": [],
+      "label": "Hive Broker",
+      "configuration": {
+        "birthRetain": true,
+        "birthTopic": "emohtrams9191",
+        "certificatepin": true,
+        "clientID": "emohtrams91911",
+        "clientid": "993294e1-ade3-4448-b517-ca3e777d59c8",
+        "enableDiscovery": true,
+        "host": "broker.hivemq.com",
+        "hostnameValidated": true,
+        "keepAlive": 60,
+        "lwtQos": 0,
+        "lwtRetain": true,
+        "lwtTopic": "emohtrams9191",
+        "mqttVersion": "V5",
+        "port": 1883,
+        "protocol": "TCP",
+        "publickeypin": true,
+        "qos": 0,
+        "reconnectTime": 60000,
+        "secure": false,
+        "shutdownRetain": true
+      },
+      "properties": {},
+      "UID": "mqtt:broker:f3724ef9bf",
+      "thingTypeUID": "mqtt:broker"
+    }
+  },
+  "mqtt:topic:507525048d:equipment": {
+    "class": "org.openhab.core.thing.internal.ThingStorageEntity",
+    "value": {
+      "isBridge": false,
+      "channels": [
+        {
+          "uid": "mqtt:topic:507525048d:equipment:ceiling-fan",
+          "id": "ceiling-fan",
+          "channelTypeUID": "mqtt:dimmer",
+          "itemType": "Dimmer",
+          "kind": "STATE",
+          "label": "Ceiling Fan",
+          "description": "",
+          "defaultTags": [],
+          "properties": {},
+          "configuration": {
+            "commandTopic": "/emohtrams9191/living1",
+            "max": 7.0,
+            "min": 2.0,
+            "stateTopic": "/emohtrams9191/living1"
+          }
+        },
+        {
+          "uid": "mqtt:topic:507525048d:equipment:pump",
+          "id": "pump",
+          "channelTypeUID": "mqtt:switch",
+          "itemType": "Switch",
+          "kind": "STATE",
+          "label": "Pump Switch",
+          "description": "",
+          "defaultTags": [],
+          "properties": {},
+          "configuration": {
+            "commandTopic": "/emohtrams9191/bathroom1",
+            "off": "-2",
+            "on": "2",
+            "stateTopic": "/emohtrams9191/bathroom1"
+          }
+        },
+        {
+          "uid": "mqtt:topic:507525048d:equipment:front-door",
+          "id": "front-door",
+          "channelTypeUID": "mqtt:contact",
+          "itemType": "Contact",
+          "kind": "STATE",
+          "label": "Front Door",
+          "description": "",
+          "defaultTags": [],
+          "properties": {},
+          "configuration": {
+            "commandTopic": "/emohtrams9191/outside1",
+            "off": "0",
+            "on": "1",
+            "stateTopic": "/emohtrams9191/outside1"
+          }
+        }
+      ],
+      "label": "Equipment",
+      "bridgeUID": "mqtt:broker:507525048d",
+      "configuration": {},
+      "properties": {},
+      "UID": "mqtt:topic:507525048d:equipment",
+      "thingTypeUID": "mqtt:topic"
+    }
+  },
+  "mqtt:topic:507525048d:living-light": {
+    "class": "org.openhab.core.thing.internal.ThingStorageEntity",
+    "value": {
+      "isBridge": false,
+      "channels": [
+        {
+          "uid": "mqtt:topic:507525048d:living-light:smarthome",
+          "id": "smarthome",
+          "channelTypeUID": "mqtt:switch",
+          "itemType": "Switch",
+          "kind": "STATE",
+          "label": "TV",
+          "description": "",
+          "defaultTags": [],
+          "properties": {},
+          "configuration": {
+            "commandTopic": "/emohtrams9191/SMART_HOME",
+            "off": "-1",
+            "on": "1",
+            "stateTopic": "/emohtrams9191/SMART_HOME"
+          }
+        },
+        {
+          "uid": "mqtt:topic:507525048d:living-light:light",
+          "id": "light",
+          "channelTypeUID": "mqtt:switch",
+          "itemType": "Switch",
+          "kind": "STATE",
+          "label": "Ledvang",
+          "description": "",
+          "defaultTags": [],
+          "properties": {},
+          "configuration": {
+            "commandTopic": "/emohtrams9191/SMART_HOME",
+            "off": "-2",
+            "on": "2",
+            "stateTopic": "/emohtrams9191/SMART_HOME"
+          }
+        },
+        {
+          "uid": "mqtt:topic:507525048d:living-light:maylanh",
+          "id": "maylanh",
+          "channelTypeUID": "mqtt:switch",
+          "itemType": "Switch",
+          "kind": "STATE",
+          "label": "May lanh",
+          "description": "",
+          "defaultTags": [],
+          "properties": {},
+          "configuration": {
+            "commandTopic": "/emohtrams9191/SMART_HOME",
+            "off": "-3",
+            "on": "3",
+            "stateTopic": "/emohtrams9191/SMART_HOME"
+          }
+        },
+        {
+          "uid": "mqtt:topic:507525048d:living-light:Door",
+          "id": "Door",
+          "channelTypeUID": "mqtt:switch",
+          "itemType": "Switch",
+          "kind": "STATE",
+          "label": "Door",
+          "description": "",
+          "defaultTags": [],
+          "properties": {},
+          "configuration": {
+            "commandTopic": "/emohtrams9191/SMART_HOME",
+            "off": "-4",
+            "on": "4",
+            "stateTopic": "/emohtrams9191/SMART_HOME"
+          }
+        },
+        {
+          "uid": "mqtt:topic:507525048d:living-light:temperature",
+          "id": "temperature",
+          "channelTypeUID": "mqtt:number",
+          "itemType": "Number",
+          "kind": "STATE",
+          "label": "Temp",
+          "description": "",
+          "defaultTags": [],
+          "properties": {},
+          "configuration": {
+            "commandTopic": "/emohtrams9191/temp",
+            "max": 80.0,
+            "min": -40.0,
+            "qos": 1,
+            "retained": true,
+            "stateTopic": "/emohtrams9191/temp"
+          }
+        },
+        {
+          "uid": "mqtt:topic:507525048d:living-light:hum",
+          "id": "hum",
+          "channelTypeUID": "mqtt:number",
+          "itemType": "Number",
+          "kind": "STATE",
+          "label": "Hum",
+          "description": "",
+          "defaultTags": [],
+          "properties": {},
+          "configuration": {
+            "commandTopic": "/emohtrams9191/humidity",
+            "max": 100.0,
+            "min": 0.0,
+            "retained": true,
+            "stateTopic": "/emohtrams9191/humidity"
+          }
+        },
+        {
+          "uid": "mqtt:topic:507525048d:living-light:light2",
+          "id": "light2",
+          "channelTypeUID": "mqtt:switch",
+          "itemType": "Switch",
+          "kind": "STATE",
+          "label": "Ledvang2",
+          "description": "",
+          "defaultTags": [],
+          "properties": {},
+          "configuration": {
+            "commandTopic": "/emohtrams9191/SMART_HOME",
+            "off": "-5",
+            "on": "5",
+            "stateTopic": "/emohtrams9191/SMART_HOME"
+          }
+        },
+        {
+          "uid": "mqtt:topic:507525048d:living-light:pump",
+          "id": "pump",
+          "channelTypeUID": "mqtt:switch",
+          "itemType": "Switch",
+          "kind": "STATE",
+          "label": "Pump",
+          "description": "",
+          "defaultTags": [],
+          "properties": {},
+          "configuration": {
+            "commandTopic": "/emohtrams9191/SMART_HOME",
+            "off": "-6",
+            "on": "6",
+            "stateTopic": "/emohtrams9191/SMART_HOME"
+          }
+        },
+        {
+          "uid": "mqtt:topic:507525048d:living-light:blinds",
+          "id": "blinds",
+          "channelTypeUID": "mqtt:contact",
+          "itemType": "Contact",
+          "kind": "STATE",
+          "label": "Blinds",
+          "description": "",
+          "defaultTags": [],
+          "properties": {},
+          "configuration": {
+            "commandTopic": "/emohtrams9191/SMART_HOME",
+            "off": "-7",
+            "on": "7",
+            "stateTopic": "/emohtrams9191/SMART_HOME"
+          }
+        }
+      ],
+      "label": "SMART_HOME",
+      "bridgeUID": "mqtt:broker:507525048d",
+      "configuration": {},
+      "properties": {},
+      "UID": "mqtt:topic:507525048d:living-light",
+      "thingTypeUID": "mqtt:topic",
+      "location": ""
+    }
+  },
+  "mqtt:topic:507525048d:sensor": {
+    "class": "org.openhab.core.thing.internal.ThingStorageEntity",
+    "value": {
+      "isBridge": false,
+      "channels": [
+        {
+          "uid": "mqtt:topic:507525048d:sensor:temp-sensor",
+          "id": "temp-sensor",
+          "channelTypeUID": "mqtt:number",
+          "itemType": "Number",
+          "kind": "STATE",
+          "label": "Temparator Control",
+          "description": "",
+          "defaultTags": [],
+          "properties": {},
+          "configuration": {
+            "commandTopic": "/emohtrams9191/living",
+            "stateTopic": "/emohtrams9191/living"
+          }
+        },
+        {
+          "uid": "mqtt:topic:507525048d:sensor:motion-sensor",
+          "id": "motion-sensor",
+          "channelTypeUID": "mqtt:switch",
+          "itemType": "Switch",
+          "kind": "STATE",
+          "label": "Motion Sensor Control",
+          "description": "",
+          "defaultTags": [],
+          "properties": {},
+          "configuration": {
+            "commandTopic": "/emohtrams9191/bathroom",
+            "off": "-2",
+            "on": "2",
+            "stateTopic": "/emohtrams9191/bathroom"
+          }
+        }
+      ],
+      "label": "Sensor",
+      "bridgeUID": "mqtt:broker:507525048d",
+      "configuration": {},
+      "properties": {},
+      "UID": "mqtt:topic:507525048d:sensor",
+      "thingTypeUID": "mqtt:topic"
+    }
+  }
+}

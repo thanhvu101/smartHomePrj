@@ -1,0 +1,528 @@
+{
+  "111": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "111",
+      "tags": [],
+      "props": {
+        "parameters": [],
+        "parameterGroups": []
+      },
+      "timestamp": "Jan 14, 2025, 5:40:13 PM",
+      "component": "oh-chart-page",
+      "config": {
+        "chartType": "",
+        "label": "Temp",
+        "period": "D"
+      },
+      "slots": {
+        "dataZoom": [
+          {
+            "component": "oh-chart-datazoom",
+            "config": {
+              "type": "inside"
+            }
+          }
+        ],
+        "grid": [
+          {
+            "component": "oh-chart-grid",
+            "config": {
+              "includeLabels": true
+            }
+          }
+        ],
+        "legend": [
+          {
+            "component": "oh-chart-legend",
+            "config": {
+              "bottom": 3.0,
+              "type": "scroll"
+            }
+          }
+        ],
+        "series": [
+          {
+            "component": "oh-time-series",
+            "config": {
+              "gridIndex": 0.0,
+              "item": "temp",
+              "markLine": {
+                "data": [
+                  {
+                    "type": "average"
+                  }
+                ]
+              },
+              "name": "Temp",
+              "type": "line",
+              "xAxisIndex": 0.0,
+              "yAxisIndex": 0.0
+            }
+          }
+        ],
+        "tooltip": [
+          {
+            "component": "oh-chart-tooltip",
+            "config": {
+              "confine": true,
+              "smartFormatter": true
+            }
+          }
+        ],
+        "xAxis": [
+          {
+            "component": "oh-time-axis",
+            "config": {
+              "gridIndex": 0.0
+            }
+          }
+        ],
+        "yAxis": [
+          {
+            "component": "oh-value-axis",
+            "config": {
+              "gridIndex": 0.0,
+              "name": "°C",
+              "scale": false
+            }
+          }
+        ]
+      }
+    }
+  },
+  "home": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "home",
+      "tags": [],
+      "props": {
+        "parameters": [],
+        "parameterGroups": []
+      },
+      "timestamp": "Jan 14, 2025, 11:06:18 PM",
+      "component": "oh-home-page",
+      "config": {
+        "label": "Home Page",
+        "simpleNavbarDesktopDefault": false,
+        "standardBackgroundDesktopDefault": false
+      },
+      "slots": {
+        "equipment": [
+          {
+            "component": "oh-equipment-tab",
+            "config": {},
+            "slots": {
+              "Blinds": [
+                {
+                  "component": "oh-equipment-card",
+                  "config": {
+                    "backgroundImage": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTJVUdqVgSeDrahtzskuGw8pixBc0WR2bz7ww\u0026s"
+                  }
+                }
+              ],
+              "Door": [
+                {
+                  "component": "oh-equipment-card",
+                  "config": {
+                    "backgroundImage": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcQQMxnc8ECyyNv071OTq5awxbcTff5HSwlBOQ\u0026s"
+                  }
+                }
+              ],
+              "HVAC": [
+                {
+                  "component": "oh-equipment-card",
+                  "config": {
+                    "backgroundImage": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcR6_b2TeZwdGKA4j2BHDuSBY0PobxdJl7DHgg\u0026s"
+                  }
+                }
+              ],
+              "Lightbulb": [
+                {
+                  "component": "oh-equipment-card",
+                  "config": {
+                    "backgroundImage": "https://images.twinkl.co.uk/tr/raw/upload/u/ux/lightbulb-1875247-1920_ver_1.jpg"
+                  }
+                }
+              ],
+              "Pump": [
+                {
+                  "component": "oh-equipment-card",
+                  "config": {
+                    "backgroundImage": "https://images.stockcake.com/public/c/0/0/c00b7292-fc5c-4ed8-af11-f8195f2695d4_large/industrial-pump-machinery-stockcake.jpg"
+                  }
+                }
+              ],
+              "Sensor": [
+                {
+                  "component": "oh-equipment-card",
+                  "config": {
+                    "backgroundImage": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcQwnlSiSLR6xOaP9M4LB3rJIbFlZNaJzpO0cg\u0026s",
+                    "invertText": true
+                  }
+                }
+              ],
+              "Television": [
+                {
+                  "component": "oh-equipment-card",
+                  "config": {
+                    "backgroundImage": "https://images.samsung.com/is/image/samsung/assets/vn/tvs/tv-buying-guide/01_what-size-tv-should-i-get/2023-tv-buying-guide-what-size-tv-should-i-get-f00-mo.jpg?$720_N_JPG$",
+                    "invertText": true
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "locations": [
+          {
+            "component": "oh-locations-tab",
+            "config": {
+              "equipmentNesting": "nested"
+            },
+            "slots": {
+              "Bedroom2": [
+                {
+                  "component": "oh-location-card",
+                  "config": {
+                    "item": "Bedroom2"
+                  }
+                }
+              ],
+              "bathroom": [
+                {
+                  "component": "oh-location-card",
+                  "config": {
+                    "backgroundImage": "https://thelondonbathco.co.uk/wp-content/uploads/2021/07/iStock-155392883-1920x1339.jpg",
+                    "item": "bathroom"
+                  }
+                }
+              ],
+              "bedroom": [
+                {
+                  "component": "oh-location-card",
+                  "config": {
+                    "backgroundImage": "https://www.ikea.com/ext/ingkadam/m/4692b22dfc97c8dc/original/PH200828.jpg",
+                    "item": "bedroom"
+                  }
+                }
+              ],
+              "livingroom": [
+                {
+                  "component": "oh-location-card",
+                  "config": {
+                    "backgroundImage": "https://www.homedora.com/cdn/shop/files/UrlaAngel04Cream_8_1_1.jpg?v\u003d1719992093\u0026width\u003d2048",
+                    "item": "livingroom"
+                  }
+                }
+              ],
+              "outside": [
+                {
+                  "component": "oh-location-card",
+                  "config": {
+                    "backgroundImage": "https://image.made-in-china.com/202f0j00srabceWMAqol/Villa-Garden-Yard-Entrance-Double-Swing-Metal-Iron-Gates-Main-Wrought-Iron-Gate-Design.webp",
+                    "item": "outside"
+                  }
+                }
+              ],
+              "smarthome": [
+                {
+                  "component": "oh-location-card",
+                  "config": {
+                    "backgroundImage": "https://www.homedora.com/cdn/shop/files/UrlaAngel04Cream_8_1_1.jpg?v\u003d1719992093\u0026width\u003d2048",
+                    "item": "smarthome"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "properties": [
+          {
+            "component": "oh-properties-tab",
+            "config": {},
+            "slots": {}
+          }
+        ]
+      }
+    }
+  },
+  "overview": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "overview",
+      "tags": [],
+      "props": {
+        "parameters": [],
+        "parameterGroups": []
+      },
+      "timestamp": "Jan 14, 2025, 11:08:57 PM",
+      "component": "oh-layout-page",
+      "config": {
+        "label": "Overview"
+      },
+      "slots": {
+        "default": [],
+        "masonry": [
+          {
+            "component": "oh-masonry",
+            "config": {
+              "flavor": "vue-masonry-css"
+            },
+            "slots": {
+              "default": [
+                {
+                  "component": "oh-location-card",
+                  "config": {
+                    "backgroundImage": "https://www.homedora.com/cdn/shop/files/UrlaAngel04Cream_8_1_1.jpg?v\u003d1719992093\u0026width\u003d2048",
+                    "badges": [
+                      "temperature",
+                      "humidity"
+                    ],
+                    "item": "smarthome",
+                    "title": "LivingRoom"
+                  }
+                },
+                {
+                  "component": "oh-location-card",
+                  "config": {
+                    "backgroundImage": "https://images.squarespace-cdn.com/content/v1/61a4eb7958cbd07dda6c9261/1a34a92e-8970-47be-8cf8-0409f65e6e83/White+and+Grey+bathroom+with+basin%2C+Bathtub+and+Walk-in+shower.",
+                    "item": "bathroom",
+                    "title": "Bath Room"
+                  }
+                },
+                {
+                  "component": "oh-location-card",
+                  "config": {
+                    "backgroundImage": "https://media.koelnmesse.io/imm2021/redaktionell/imm/img/online_magazin/schlaf/imm-artikel-schlaf-headerbild_m24_full_m36_1025.png",
+                    "disableBadges": true,
+                    "item": "bedroom"
+                  }
+                },
+                {
+                  "component": "oh-location-card",
+                  "config": {
+                    "backgroundImage": "https://www.nobroker.in/blog/wp-content/uploads/2024/03/Front-Gate-Design.jpg",
+                    "item": "outside"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "page_145947e10d": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_145947e10d",
+      "tags": [],
+      "props": {
+        "parameters": [],
+        "parameterGroups": []
+      },
+      "timestamp": "Jan 15, 2025, 8:02:01 AM",
+      "component": "oh-layout-page",
+      "config": {
+        "label": "Dashboard",
+        "sidebar": true
+      },
+      "slots": {
+        "canvas": [],
+        "default": [
+          {
+            "component": "oh-block",
+            "config": {},
+            "slots": {
+              "default": [
+                {
+                  "component": "oh-grid-row",
+                  "config": {},
+                  "slots": {
+                    "default": [
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-label-card",
+                              "config": {
+                                "action": "analyzer",
+                                "actionAnalyzerItems": [
+                                  "temp"
+                                ],
+                                "icon": "oh:temperature",
+                                "item": "temp",
+                                "title": "Nhiệt độ",
+                                "trendItem": "temp"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-label-card",
+                              "config": {
+                                "action": "analyzer",
+                                "actionAnalyzerItems": [
+                                  "hum"
+                                ],
+                                "icon": "oh:humidity",
+                                "item": "hum",
+                                "title": "Độ ẩm",
+                                "trendItem": "hum"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-toggle-card",
+                              "config": {
+                                "item": "light",
+                                "title": "Đèn trần"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-toggle-card",
+                              "config": {
+                                "item": "TV",
+                                "title": "Tivi"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "component": "oh-grid-row",
+                  "config": {},
+                  "slots": {
+                    "default": [
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-toggle-card",
+                              "config": {
+                                "item": "pump",
+                                "title": "Máy bơm"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "component": "oh-grid-row",
+                  "config": {},
+                  "slots": {
+                    "default": [
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-toggle-card",
+                              "config": {
+                                "item": "light2",
+                                "title": "Đèn ngủ"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-toggle-card",
+                              "config": {
+                                "item": "maylanh",
+                                "title": "Điều hòa"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-label-card",
+                              "config": {
+                                "icon": "oh:blinds",
+                                "item": "rem",
+                                "title": "Rèm cửa"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "component": "oh-grid-row",
+                  "config": {},
+                  "slots": {
+                    "default": [
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-toggle-card",
+                              "config": {
+                                "item": "Door",
+                                "title": "Cửa nhà"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "grid": [],
+        "masonry": []
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "ga:Door": {
+    "class": "org.openhab.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "ga",
+          "Door"
+        ],
+        "uid": "ga:Door"
+      },
+      "value": "Switch",
+      "configuration": {}
+    }
+  },
+  "ga:TV": {
+    "class": "org.openhab.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "ga",
+          "TV"
+        ],
+        "uid": "ga:TV"
+      },
+      "value": "Switch",
+      "configuration": {}
+    }
+  },
+  "ga:hum": {
+    "class": "org.openhab.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "ga",
+          "hum"
+        ],
+        "uid": "ga:hum"
+      },
+      "value": "HumiditySensor",
+      "configuration": {}
+    }
+  },
+  "ga:light": {
+    "class": "org.openhab.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "ga",
+          "light"
+        ],
+        "uid": "ga:light"
+      },
+      "value": "Switch",
+      "configuration": {}
+    }
+  },
+  "ga:light2": {
+    "class": "org.openhab.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "ga",
+          "light2"
+        ],
+        "uid": "ga:light2"
+      },
+      "value": "Switch",
+      "configuration": {}
+    }
+  },
+  "ga:maylanh": {
+    "class": "org.openhab.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "ga",
+          "maylanh"
+        ],
+        "uid": "ga:maylanh"
+      },
+      "value": "Switch",
+      "configuration": {}
+    }
+  },
+  "ga:pump": {
+    "class": "org.openhab.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "ga",
+          "pump"
+        ],
+        "uid": "ga:pump"
+      },
+      "value": "Switch",
+      "configuration": {}
+    }
+  },
+  "ga:rem": {
+    "class": "org.openhab.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "ga",
+          "rem"
+        ],
+        "uid": "ga:rem"
+      },
+      "value": "Switch",
+      "configuration": {}
+    }
+  },
+  "ga:temp": {
+    "class": "org.openhab.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "ga",
+          "temp"
+        ],
+        "uid": "ga:temp"
+      },
+      "value": "TemperatureSensor",
+      "configuration": {}
+    }
+  },
+  "unit:hum": {
+    "class": "org.openhab.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "unit",
+          "hum"
+        ],
+        "uid": "unit:hum"
+      },
+      "value": "㎥",
+      "configuration": {}
+    }
+  },
+  "unit:temp": {
+    "class": "org.openhab.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "unit",
+          "temp"
+        ],
+        "uid": "unit:temp"
+      },
+      "value": "°C",
+      "configuration": {}
+    }
+  }
+}

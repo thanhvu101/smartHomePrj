@@ -44,3 +44,14 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# openHAB runtime/user data
+openHAB/userdata/jsondb/users.json
+openHAB/userdata/jsondb/backup/
+
+# Runtime/discovery data
+openHAB/userdata/jsondb/thing_status_storage.json
+openHAB/userdata/jsondb/org.openhab.core.config.discovery.DiscoveryResult.json
+
+# API key/marketplace
+openHAB/userdata/jsondb/org.openhab.marketplace.json
