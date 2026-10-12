@@ -89,6 +89,7 @@ Start Simulation
 start.bat
 # Mở google assistant và điều khiển qua giọng nói
 # Kiểm tra Wokwi simulation và log phản hồi
-![alt text](image-1.png)
-![alt text](image-2.png)
 ```
+
+<img width="1899" height="921" alt="image" src="https://github.com/user-attachments/assets/3368e025-0cec-42a5-8d79-2d84a5b39492" />
+<img width="1899" height="921" alt="image" src="https://github.com/user-attachments/assets/650ed6ae-46d7-4275-8ab6-228b7b56e077" />
