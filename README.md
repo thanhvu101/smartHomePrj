@@ -92,4 +92,5 @@ start.bat
 ```
 
 <img width="1899" height="921" alt="image" src="https://github.com/user-attachments/assets/3368e025-0cec-42a5-8d79-2d84a5b39492" />
-<img width="1899" height="921" alt="image" src="https://github.com/user-attachments/assets/650ed6ae-46d7-4275-8ab6-228b7b56e077" />
+<img width="1835" height="898" alt="image" src="https://github.com/user-attachments/assets/7dac98a5-09e1-49eb-9f6b-e241b22e460e" />
+
